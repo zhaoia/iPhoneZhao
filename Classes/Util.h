@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonDigest.h>
 
-#define rootURL @"http://192.168.1.101:3000/service/get_product_lists/"
+#define rootURL @"http://www.zhaoia.com/service/get_product_lists/"
 #define detailRootURL @"http://www.zhaoia.com/detail"
 
 //

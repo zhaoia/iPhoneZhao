@@ -34,20 +34,3 @@
 
 本程序仅供Zhaoia API 演示和参考使用。
 版权所有 麦图科技 2010
-
-/*
- * Zhaoia in iPhone
- * Author:zhaoia
- * 2010-10-22
- * Copyright reverse.
- * source code : http://github.com/zhaoia
- */
-
-    First, you can find that "appkey" and "secretcode" in Classes/Util.h are empty string.
-Mail to api@hellom2.com to ask for a pair of "appkey" and "secretcode".
-
-    Any question or more, see http://www.zhaoia.com/api.
-
-    A guide for developer at http://www.zhaoia.com/apidoc/zhaoia_api_doc.pdf.
-
-    If you want a test, http://www.zhaoia.com/test_api.
