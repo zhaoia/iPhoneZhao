@@ -1,0 +1,53 @@
+== 欢迎使用找呀搜索及iPhone客户端工具
+
+
+== Getting Started
+
+   平台需求:
+   1, Mac OS 10.6
+   2, Xcode 3.2
+   3, iPhone SDK 3.1
+
+   编译源码:
+
+   1, git clone git://github.com/zhaoia/iPhoneZhao.git
+   2, 通过Xcode 打开项目编译
+
+== Zhaoia API 使用
+
+   1,写邮件到 api@hellom2.com 以获取appkey和secretcode
+   2,参照iPhoneZhaoia/Classes/Util.h,设置appkey和secretcode
+
+   15 //
+   16 // mail to api@hellom2.com to ask for appkey and secretcode 
+   17 #define appkey @"your appkey"
+   18 #define  secretcode @"your secretcode"
+   19 //
+   20 //
+
+   3,编译并运行，即可通过iPhone客户端进行商品查询
+
+   Zhaoia API 详细使用说明请参考:
+   http://www.zhaoia.com/api
+
+== 其它
+
+本程序仅供Zhaoia API 演示和参考使用。
+版权所有 麦图科技 2010
+
+/*
+ * Zhaoia in iPhone
+ * Author:zhaoia
+ * 2010-10-22
+ * Copyright reverse.
+ * source code : http://github.com/zhaoia
+ */
+
+    First, you can find that "appkey" and "secretcode" in Classes/Util.h are empty string.
+Mail to api@hellom2.com to ask for a pair of "appkey" and "secretcode".
+
+    Any question or more, see http://www.zhaoia.com/api.
+
+    A guide for developer at http://www.zhaoia.com/apidoc/zhaoia_api_doc.pdf.
+
+    If you want a test, http://www.zhaoia.com/test_api.

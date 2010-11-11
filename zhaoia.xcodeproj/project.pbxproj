@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* zhaoiaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* zhaoiaAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* zhaoiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* zhaoiaViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* zhaoiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* zhaoiaViewController.m */; };
+		FCBDFD8F12672F1D003ECCD1 /* ProductImagePopUpDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDFD8E12672F1D003ECCD1 /* ProductImagePopUpDialog.m */; };
+		FCBE882F126550B500B19C2B /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE882E126550B500B19C2B /* ProductCell.m */; };
+		FCBE885512655DD900B19C2B /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBE885412655DD900B19C2B /* ProductCell.xib */; };
+		FCC04756126431400054B0EB /* zhaoia_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04755126431400054B0EB /* zhaoia_bg.png */; };
+		FCC04758126431560054B0EB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04757126431560054B0EB /* Icon.png */; };
+		FCC0475A1264316B0054B0EB /* zhaoia_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC047591264316B0054B0EB /* zhaoia_logo.png */; };
+		FCC0475C1264317B0054B0EB /* zhaoia_product.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC0475B1264317B0054B0EB /* zhaoia_product.png */; };
+		FCC0475E1264318F0054B0EB /* zhaoia_searchbox.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC0475D1264318F0054B0EB /* zhaoia_searchbox.png */; };
+		FCC04760126431B00054B0EB /* activenext.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC0475F126431B00054B0EB /* activenext.png */; };
+		FCC04762126431B60054B0EB /* activeprevious.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04761126431B60054B0EB /* activeprevious.png */; };
+		FCC04764126431CE0054B0EB /* search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04763126431CE0054B0EB /* search_icon.png */; };
+		FCC04766126431D80054B0EB /* unnext.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04765126431D80054B0EB /* unnext.png */; };
+		FCC04768126431E00054B0EB /* unprevious.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04767126431E00054B0EB /* unprevious.png */; };
+		FCC0476A126432410054B0EB /* product_img.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC04769126432410054B0EB /* product_img.png */; };
+		FCC0479E12643F100054B0EB /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0479D12643F100054B0EB /* Util.m */; };
+		FCC048D2126469540054B0EB /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC048C9126469540054B0EB /* NSObject+SBJSON.m */; };
+		FCC048D3126469540054B0EB /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC048CB126469540054B0EB /* NSString+SBJSON.m */; };
+		FCC048D4126469540054B0EB /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC048CD126469540054B0EB /* SBJsonBase.m */; };
+		FCC048D5126469540054B0EB /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC048CF126469540054B0EB /* SBJsonParser.m */; };
+		FCC048D6126469540054B0EB /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC048D1126469540054B0EB /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* zhaoiaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoiaAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* zhaoiaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhaoiaAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* zhaoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhaoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* zhaoiaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = zhaoiaViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* zhaoiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoiaViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* zhaoiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhaoiaViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* zhaoia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoia_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* zhaoia-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "zhaoia-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FCBDFD8D12672F1D003ECCD1 /* ProductImagePopUpDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImagePopUpDialog.h; sourceTree = "<group>"; };
+		FCBDFD8E12672F1D003ECCD1 /* ProductImagePopUpDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImagePopUpDialog.m; sourceTree = "<group>"; };
+		FCBE882D126550B500B19C2B /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		FCBE882E126550B500B19C2B /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		FCBE885412655DD900B19C2B /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		FCC04755126431400054B0EB /* zhaoia_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhaoia_bg.png; sourceTree = "<group>"; };
+		FCC04757126431560054B0EB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FCC047591264316B0054B0EB /* zhaoia_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhaoia_logo.png; sourceTree = "<group>"; };
+		FCC0475B1264317B0054B0EB /* zhaoia_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhaoia_product.png; sourceTree = "<group>"; };
+		FCC0475D1264318F0054B0EB /* zhaoia_searchbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhaoia_searchbox.png; sourceTree = "<group>"; };
+		FCC0475F126431B00054B0EB /* activenext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activenext.png; sourceTree = "<group>"; };
+		FCC04761126431B60054B0EB /* activeprevious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activeprevious.png; sourceTree = "<group>"; };
+		FCC04763126431CE0054B0EB /* search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_icon.png; sourceTree = "<group>"; };
+		FCC04765126431D80054B0EB /* unnext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnext.png; sourceTree = "<group>"; };
+		FCC04767126431E00054B0EB /* unprevious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unprevious.png; sourceTree = "<group>"; };
+		FCC04769126432410054B0EB /* product_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_img.png; sourceTree = "<group>"; };
+		FCC0479C12643F100054B0EB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		FCC0479D12643F100054B0EB /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		FCC048C7126469540054B0EB /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FCC048C8126469540054B0EB /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FCC048C9126469540054B0EB /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FCC048CA126469540054B0EB /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FCC048CB126469540054B0EB /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FCC048CC126469540054B0EB /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FCC048CD126469540054B0EB /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FCC048CE126469540054B0EB /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FCC048CF126469540054B0EB /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FCC048D0126469540054B0EB /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FCC048D1126469540054B0EB /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCC048C51264693B0054B0EB /* JSON */,
+				1D3623240D0F684500981E51 /* zhaoiaAppDelegate.h */,
+				1D3623250D0F684500981E51 /* zhaoiaAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* zhaoiaViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* zhaoiaViewController.m */,
+				FCC0479C12643F100054B0EB /* Util.h */,
+				FCC0479D12643F100054B0EB /* Util.m */,
+				FCBE882D126550B500B19C2B /* ProductCell.h */,
+				FCBE882E126550B500B19C2B /* ProductCell.m */,
+				FCBE885412655DD900B19C2B /* ProductCell.xib */,
+				FCBDFD8D12672F1D003ECCD1 /* ProductImagePopUpDialog.h */,
+				FCBDFD8E12672F1D003ECCD1 /* ProductImagePopUpDialog.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* zhaoia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* zhaoia_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCC0475D1264318F0054B0EB /* zhaoia_searchbox.png */,
+				FCC0475B1264317B0054B0EB /* zhaoia_product.png */,
+				FCC0475F126431B00054B0EB /* activenext.png */,
+				FCC04761126431B60054B0EB /* activeprevious.png */,
+				FCC04763126431CE0054B0EB /* search_icon.png */,
+				FCC04765126431D80054B0EB /* unnext.png */,
+				FCC04767126431E00054B0EB /* unprevious.png */,
+				FCC04769126432410054B0EB /* product_img.png */,
+				FCC047591264316B0054B0EB /* zhaoia_logo.png */,
+				FCC04757126431560054B0EB /* Icon.png */,
+				FCC04755126431400054B0EB /* zhaoia_bg.png */,
+				2899E5210DE3E06400AC0155 /* zhaoiaViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* zhaoia-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC048C51264693B0054B0EB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FCC048C7126469540054B0EB /* JSON.h */,
+				FCC048C8126469540054B0EB /* NSObject+SBJSON.h */,
+				FCC048C9126469540054B0EB /* NSObject+SBJSON.m */,
+				FCC048CA126469540054B0EB /* NSString+SBJSON.h */,
+				FCC048CB126469540054B0EB /* NSString+SBJSON.m */,
+				FCC048CC126469540054B0EB /* SBJsonBase.h */,
+				FCC048CD126469540054B0EB /* SBJsonBase.m */,
+				FCC048CE126469540054B0EB /* SBJsonParser.h */,
+				FCC048CF126469540054B0EB /* SBJsonParser.m */,
+				FCC048D0126469540054B0EB /* SBJsonWriter.h */,
+				FCC048D1126469540054B0EB /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* zhaoia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "zhaoia" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhaoia;
+			productName = zhaoia;
+			productReference = 1D6058910D05DD3D006BFB54 /* zhaoia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "zhaoia" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* zhaoia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* zhaoiaViewController.xib in Resources */,
+				FCC04756126431400054B0EB /* zhaoia_bg.png in Resources */,
+				FCC04758126431560054B0EB /* Icon.png in Resources */,
+				FCC0475A1264316B0054B0EB /* zhaoia_logo.png in Resources */,
+				FCC0475C1264317B0054B0EB /* zhaoia_product.png in Resources */,
+				FCC0475E1264318F0054B0EB /* zhaoia_searchbox.png in Resources */,
+				FCC04760126431B00054B0EB /* activenext.png in Resources */,
+				FCC04762126431B60054B0EB /* activeprevious.png in Resources */,
+				FCC04764126431CE0054B0EB /* search_icon.png in Resources */,
+				FCC04766126431D80054B0EB /* unnext.png in Resources */,
+				FCC04768126431E00054B0EB /* unprevious.png in Resources */,
+				FCC0476A126432410054B0EB /* product_img.png in Resources */,
+				FCBE885512655DD900B19C2B /* ProductCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* zhaoiaAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* zhaoiaViewController.m in Sources */,
+				FCC0479E12643F100054B0EB /* Util.m in Sources */,
+				FCC048D2126469540054B0EB /* NSObject+SBJSON.m in Sources */,
+				FCC048D3126469540054B0EB /* NSString+SBJSON.m in Sources */,
+				FCC048D4126469540054B0EB /* SBJsonBase.m in Sources */,
+				FCC048D5126469540054B0EB /* SBJsonParser.m in Sources */,
+				FCC048D6126469540054B0EB /* SBJsonWriter.m in Sources */,
+				FCBE882F126550B500B19C2B /* ProductCell.m in Sources */,
+				FCBDFD8F12672F1D003ECCD1 /* ProductImagePopUpDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = zhaoia_Prefix.pch;
+				INFOPLIST_FILE = "zhaoia-Info.plist";
+				PRODUCT_NAME = zhaoia;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = zhaoia_Prefix.pch;
+				INFOPLIST_FILE = "zhaoia-Info.plist";
+				PRODUCT_NAME = zhaoia;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "zhaoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "zhaoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
